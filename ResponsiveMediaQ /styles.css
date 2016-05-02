@@ -1,0 +1,30 @@
+#container {
+  width: 1000px;
+  margin: 0px auto;
+}
+.left{
+  width: 700px;
+  background-color: dimgray;
+  float: left;
+}
+.right {
+  width: 300px;
+  background-color: lightgray;
+  float: left;
+}
+
+@media screen and  (max-width:999px) {
+  #container {
+    width: 100%;
+  }
+  .left{
+    width: 50%;
+  }
+  .right{
+    width: 50%;
+  }
+  img{
+    width: 100%;
+  }
+
+}
